@@ -1,0 +1,22 @@
+/*
+titulo:primer programa con comentarios
+autor:Juan David Meza Gonzales
+descripcion:primer programa para analizar su estructura
+fecha: 2024-01-10
+*/
+
+#include <iostream>//inclucion de la libreria de entradaa y salida.
+using namespace std;//el uso de espacio de nombre para STD de la salida o entrada I/O.
+
+int main()//funcion principal main para retornar un entero.
+{	
+	int numero;//declaracion de la variable numero como entero.
+
+	numero = 5+5://asignacion de la suma 5+5 a la variable  numero.
+	/*
+	impresion del resultado de la variable numero
+	y adicion al final del salto de linea.
+	*/
+	cout <<"el resultado de la suma de 5+5 es:">>numero<<endl;//impresion de la variable numero.
+	return 0;//retorno de 0 para finalizar el programa.
+}	
