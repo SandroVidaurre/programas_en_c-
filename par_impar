@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(int argc, char *argv[]) {
+	int numero;
+	cout<< "ingrese el numero"<<endl;
+	cin >> numero;
+	if(numero % 2==0)
+	{
+	cout<<"el numero:"<<numero<<" es PAR"<<endl;
+	}
+	else
+	{ 
+		cout <<"el  numero:"<<numero<<" es IMPAR"<<endl;
+	}
+	return 0;
+}
